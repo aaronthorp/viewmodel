@@ -3,6 +3,8 @@
 
 ViewModel is a view layer for Meteor. You can think of it as Angular, Knockout, Aurelia, Vue, etc. but without the boilerplate code required to make those work.
 
+[25/08/23] ViewModel package updated to work with current Meteor Blaze packages, teted upto 2.13
+
 Here are some things it can do to make your life easier:
 
 - [Less code to get things done][1]

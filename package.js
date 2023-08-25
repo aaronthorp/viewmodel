@@ -1,9 +1,9 @@
 Package.describe({
-  name: "manuel:viewmodel",
+  name: "thinksoftware:viewmodel",
   summary:
     "MVVM, two-way data binding, and components for Meteor. Similar to Angular and Knockout.",
-  version: "6.3.8",
-  git: "https://github.com/ManuelDeLeon/viewmodel"
+  version: "6.3.9",
+  git: "https://github.com/aaronthorp/viewmodel"
 });
 
 var CLIENT = "client";
@@ -15,8 +15,8 @@ Package.onUse(function(api) {
       "ecmascript@0.1.6",
       "blaze@2.1.2",
       "templating@1.1.1",
-      "jquery@1.11.3_2",
-      "underscore@1.0.3",
+      "jquery",
+      "underscore",
       "tracker@1.0.7",
       "reload@1.1.3",
       "sha@1.0.3",
@@ -30,8 +30,8 @@ Package.onUse(function(api) {
 
   api.addFiles(
     [
-      "lib/viewmodel.coffee",
-      "lib/viewmodel-parseBind.coffee",
+      "lib/viewmodel.js",
+      "lib/viewmodel-parseBind.js",
       "lib/bindings.coffee",
       "lib/template.coffee",
       "lib/migration.coffee",
@@ -69,8 +69,8 @@ Package.onTest(function(api) {
 
   api.addFiles(
     [
-      "lib/viewmodel.coffee",
-      "lib/viewmodel-parseBind.coffee",
+      "lib/viewmodel.js",
+      "lib/viewmodel-parseBind.js",
       "lib/viewmodel-property.js",
       "lib/bindings.coffee",
       "lib/template.coffee",
